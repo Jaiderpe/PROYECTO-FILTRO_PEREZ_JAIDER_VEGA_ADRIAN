@@ -1,11 +1,19 @@
 
 body{
     background-image: url(../imagenes/Rectangle\ 1.png);
+    overflow: hidden;
 
 }
 
-.img{
-  width: 20px; ;  
+.img2{
+    background-image: url(../imagenes/pexels-pixabay-159400.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 .img1{
     width: 150px;
@@ -14,4 +22,17 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    animation: yo 2s 3s ;
+    transition: opacity 2s ease-in-out, visibility 1s ease-in-out;
+
+}
+@keyframes yo{
+0%{
+    opacity: 1;
+    visibility: visible;
+}
+100%{
+    opacity: 0;
+    visibility: hidden;
+}
 }
