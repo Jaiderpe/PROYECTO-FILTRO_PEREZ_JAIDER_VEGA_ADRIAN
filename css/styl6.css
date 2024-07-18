@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    height: 0;
+    background-image: url(/imagenes/pexels-pixabay-159400.png);
+}
+
+
+
+.yen1{
+    width: 15%;
+    height: 100%;
+    margin: 30px 0;
+}
+.yen1 input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(102, 92, 76);
+    border-radius: 590px;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: rgb(131, 151, 151);
+    
+    }
+
+    .yen2{
+        width: 15%;
+        height: 100%;
+        margin: 30px 0;
+    }
+    .yen2 input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgb(102, 92, 76);
+        border-radius: 590px;
+        padding: 10px;
+        margin-left: 50px;
+        background-color: rgb(131, 151, 151);
+        
+        }
+
+        .yen3{
+            width: 15%;
+            height: 100%;
+            margin: 30px 0;
+        }
+        .yen3 input {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgb(102, 92, 76);
+            border-radius: 590px;
+            padding: 10px;
+            margin-left: 50px;
+            background-color: rgb(131, 151, 151);
+            
+            }
+
+            .yen4{
+                width: 15%;
+                height: 100%;
+                margin: 30px 0;
+            }
+            .yen4 input {
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                border: none;
+                outline: none;
+                border: 2px solid rgb(102, 92, 76);
+                border-radius: 590px;
+                padding: 10px;
+                margin-left: 50px;
+                background-color: rgb(131, 151, 151);
+                
+                }
+
+                .yen5{
+                    width: 15%;
+                    height: 100%;
+                    margin: 30px 0;
+                }
+                .yen5 input {
+                    width: 100%;
+                    height: 100%;
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                    border: 2px solid rgb(102, 92, 76);
+                    border-radius: 590px;
+                    padding: 10px;
+                    margin-left: 50px;
+                    background-color: rgb(131, 151, 151);
+                    
+                    }
