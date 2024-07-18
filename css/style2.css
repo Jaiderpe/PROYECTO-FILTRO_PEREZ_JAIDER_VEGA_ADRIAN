@@ -5,7 +5,6 @@ body{
 
 }
 header{
-    
     background-color: rgb(235, 245, 246);
     height: 35px;
     display: flex;
@@ -27,17 +26,21 @@ header{
     
 
 }
-.indicadores{
-    height:  40px;
-    padding: 5px;
-    width: 90%;
-    background-color: rgb(243, 243, 245);
-    border-radius: 10vw ;
-    justify-content: space-between;
-    img{
-        padding: 0px 0px 0px 0px;
-    }
+
+.prop1{
+    height: 10px;
+    padding: 25px;
+    width: 40px;
+    background-color: rgb(188, 4, 4);
+    border-radius: 100%;
+    display: flex;
+    
+    
+    
+   
 }
+
+
 .texto{
     
     justify-content: center;
@@ -60,4 +63,47 @@ header{
         font-size: 1.8002vw;
         padding: 5px;
     }
+}
+.derT{
+    justify-content: space-between;
+    padding: 5px;
+    a{
+        color: rgb(24, 21, 21);
+        padding: 5px;
+        text-decoration: none;
+        font-size: 1.6002vw;
+        padding: 15px;
+    
+    }
+
+}
+
+
+.derT1{
+    height:  30px;
+    padding: 10px;
+    width: 90%;
+    background-color: rgb(247, 247, 253);
+    border-radius: 12vw ;
+    display: flex;
+    justify-content: space-between;
+
+
+
+    a{
+        color: rgb(106, 96, 96);
+        padding: 8px;
+        text-decoration: none;
+        justify-content: space-between;
+        font-size: 1.6002vw;
+        padding: 15px;
+        
+
+    
+    }
+}
+.id{
+    margin-left: 93vw;
+    margin-top: -49px;
+    display: flex
 }
