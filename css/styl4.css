@@ -2,97 +2,87 @@ body{
     margin: 0;
     height: 0;
     background-image: url(/imagenes/pexels-pixabay-159400.png);
-
+    background-color: rgb(128, 127, 127);
 
 }
-.sti1{
+
+.icon {
+    display: flex;
+    margin-top: 0.20vw;
+    margin-bottom: 0;
+    margin-left: 2vw;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    p {
+        font-size: 2rem;
+    }
+}
+
+.tittle h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.filas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.stil{
     border-radius: 10px;
     border: 2px solid black;
-    margin-left: 20px;
-    width: 300px;
+    margin-top: 0.75vh;
+    width: 40.625vw;
     background-color: rgb(131, 151, 151);
 
 }
-.sti1 h2 {
-    margin-left: 70px;
-}
-.sti1 p{
-    margin-left: 95px;
+
+.stil p{
+    text-align: center;
 }
 
-.sti2{
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-left: 450px;
-    width: 300px;
-    margin-top: -105px;
-    background-color: rgb(131, 151, 151);
-
-}
-.sti2 h2 {
-    margin-left: 70px;
-}
-.sti2 p{
-    margin-left: 95px;
-}
-
-.sti3{
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-left: 880px;
-    width: 300px;
-     margin-top: -104px;
-     background-color: rgb(131, 151, 151);
-
-}
-.sti3 h2 {
-    margin-left: 70px;
-}
-.sti3 p{
-    margin-left: 65px;
-}
-
-.sti4 h2{
-    margin-left: 160px;
-    margin-top: 100px;
-    
-        
+.stil h2 {
+    color: white;
+    text-align: center;
 }
 
 .bara1{
-    width: 40%;
+    width: 30%;
     height: 100%;
     margin: 20px 0;
 }
-.bara1 input {
+.datos-input p {
+    text-align: center;
+}
+.datos-input input {
     width: 100%;
     height: 100%;
     background: transparent;
     border: none;
-    outline: none;
     border: 2px solid rgb(102, 92, 76);
     border-radius: 590px;
     padding: 10px;
-    margin-left: 150px;
     background-color: rgb(131, 151, 151);
     
-    }
+}
 
-    .bara2{
-        width: 40%;
-        height: 100%;
-        margin: 20px 0;
-    }
-    .bara2 input {
-        width: 100%;
-        height: 100%;
-        background: transparent;
-        border: none;
-        outline: none;
-        border: 2px solid rgb(102, 92, 76);
-        border-radius: 590px;
-        padding: 10px;
-        margin-left: 150px;
-        background-color: rgb(131, 151, 151);
-        
-        }    
+button {
+    margin: 0.75vh;
+    background-color: aquamarine;
+    border: none;
+    height: auto;
+    width: 10vw;
+    border-radius: 15px;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+  
