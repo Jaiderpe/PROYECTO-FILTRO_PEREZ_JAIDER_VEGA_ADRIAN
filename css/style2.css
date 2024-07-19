@@ -48,6 +48,9 @@ header{
 }
 .botone{
     padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     button{
         background-color: #fa8714;

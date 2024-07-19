@@ -2,10 +2,40 @@
 body{
     background-image: url(../imagenes/Rectangle\ 1.png);
     overflow: hidden;
+    background-image: url(../imagenes/pexels-pixabay-159400.png);
 
 }
 
-.img2{
+
+
+.img1{
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: yo 1s 1s ;
+    transition: opacity 0 , visibility 0 ;
+
+}
+@keyframes yo{
+0%{
+    opacity: 1;
+    visibility: visible;
+}
+75%{
+    opacity: 1;
+    visibility: visible;
+    
+}
+100%{
+    opacity: 0;
+    visibility: hidden;
+}
+}
+
+.fon{
     background-image: url(../imagenes/pexels-pixabay-159400.png);
     background-size: cover;
     height: 100%;
@@ -14,25 +44,70 @@ body{
     top: 0;
     left: 0;
     z-index: 10;
-}
-.img1{
-    width: 150px;
-    height: 250px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    animation: yo 2s 3s ;
-    transition: opacity 2s ease-in-out, visibility 1s ease-in-out;
 
 }
-@keyframes yo{
-0%{
-    opacity: 1;
-    visibility: visible;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
 }
-100%{
-    opacity: 0;
-    visibility: hidden;
+
+.datos{
+    width: 700px;
+    margin-left: 0;
+    background: #fff;
+    color: rgb(9, 12, 12);
+    border-radius: 40px;
+    animation: tu 2s 3s ;
+    transition: opacity 2s ease-in-out, visibility 1s ease-in-out;
 }
+
+
+.img4 img{
+    padding: 10px;
+}
+.img4{
+    margin-top: 70px;
+
+
+}
+.bara{
+    width: 67%;
+    height: 100%;
+    margin: 30px 0;
+
+}
+.bara input {
+width: 100%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgb(102, 92, 76);
+border-radius: 590px;
+padding: 5px;
+
+}
+.una h2{
+    height: 0px;
+    margin-left: -370px;  
+}
+.une h2{
+    height: 0px;
+    margin-left: -330px; 
+}
+.submit-btn button{
+    margin-top: -500px;
+
+}
+
+.texto p{
+    font-size: 10px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: blue;
 }
