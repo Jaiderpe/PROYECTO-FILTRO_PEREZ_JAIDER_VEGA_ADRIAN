@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 214, 214);
+    background-image: url(/imagenes/pexels-pixabay-159400.png);
+    background-color: rgba(0, 0, 0, 0.778) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    height: 100vh;
+
+}
+.tittle {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.tabla {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10%;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+
+.text label input {
+    background-color: aqua;
+    height: 7vh;
+    text-align: center;
+    border:none;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton button {
+    background-color: tomato;
+    font-size: 1.8rem;
+    color: white;
+    height: 70px;
+    
+}
