@@ -1,4 +1,4 @@
-# FILTRO FINAL TIENDA DE ROPAS 
+# 
 
 _Es una tienda virtual que cumple con  las caracteristcas principal para la compra de ropa esclusiva para uso personal_
 
