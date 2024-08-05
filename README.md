@@ -1,10 +1,10 @@
-# 
+# ELABORACION DE ANIMACION Y TABLA DE INFORMACION
 
-_Es una tienda virtual que cumple con  las caracteristcas principal para la compra de ropa esclusiva para uso personal_
+_Es un citio elabarado para la entrada de un usuario a rebisar su informacion a necada a su perfil_
 
 ## Dando inicio  🚀
 
-_Estas instrucciones para un diseño acoplado para el uso del sitio web _
+_Registro de usuario en la platforma_
 
 
 ## Ejecutando las pruebas ⚙️
@@ -14,7 +14,7 @@ _En base de evaluación y registro de pruebas final para verificación del uso d
 
 ### Y las pruebas de estilo de codificación ⌨️
 
-_Con diseño response._
+_Con diseño de animacion._
 
 ```
 Da un ejemplo
@@ -27,11 +27,12 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
  * visual code
  * css
  * html
+   
 
 
 ## Contribuyendo 🖇️
 
-compañero de clase Érick aria 
+trainer jholver
 
 
 ## Autores ✒️
@@ -39,5 +40,4 @@ compañero de clase Érick aria
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Jaider adrián Pérez vega ** 
-* **Érick arias ** 
 
